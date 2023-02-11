@@ -1,0 +1,39 @@
+.container {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+  }
+
+.product {
+  padding: 5px;
+}
+
+.search-container {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input {
+  display: flex;
+}
+
+.dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+  /* top: 244px;
+  right: 172px; */
+}
